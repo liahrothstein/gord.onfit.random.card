@@ -1,0 +1,10 @@
+@use '../abstracts' as *;
+
+.cardImage {
+    max-height: 80dvh;
+    border: 1px solid $cardBorderColor;
+}
+
+h3 {
+    text-align: center;
+}
