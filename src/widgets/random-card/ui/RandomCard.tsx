@@ -8,11 +8,13 @@ import { cards } from "@constants/index";
 import cardShirt from '../../../shared/assets/images/card-shirt.jpg';
 
 export function RandomCard() {
-    const [card, setCard] = useState<number>();;
+    const [card, setCard] = useState<number>();
 
     return (
         <div className="randomCard">
-            <ChooseCard setCard={setCard} />
+            <ChooseCard
+                card={(card !== undefined) ? card : 0}
+                setCard={setCard} />
             {(card === undefined) ?
                 <WorkoutCard
                     cardImage={cardShirt}
