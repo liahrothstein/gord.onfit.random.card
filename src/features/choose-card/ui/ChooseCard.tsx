@@ -12,6 +12,7 @@ export function ChooseCard({ card, setCard }: ChooseCardProps) {
     return (
         <Button
             type="primary"
+            size="large"
             onClick={() => { chooseCard(card, setCard) }}>
             Выбрать карточку
         </Button>

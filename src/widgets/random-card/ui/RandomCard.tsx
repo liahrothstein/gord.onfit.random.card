@@ -7,6 +7,8 @@ import { cards } from "@constants/index";
 
 import cardShirt from '../../../shared/assets/images/card-shirt.jpg';
 
+import './RandomCard.scss';
+
 export function RandomCard() {
     const [card, setCard] = useState<number>();
 
