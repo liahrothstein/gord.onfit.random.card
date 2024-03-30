@@ -1,0 +1,1 @@
+# gord.onfit.random.card
