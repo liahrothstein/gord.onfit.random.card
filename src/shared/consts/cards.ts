@@ -1,70 +1,65 @@
 import type { Card } from "../types";
 
-import benchPress from '../assets/images/bench-press.jpg';
-import buttockBridge from '../assets/images/buttock-bridge.jpg';
-import liftingDumbbellsOnBiceps from '../assets/images/lifting-dumbbells-on-biceps.jpg';
-import plank from '../assets/images/plank.jpg';
-import pushUpsFromTheKneesOffTheFloor from '../assets/images/push-ups-from-the-knees-off-the-floor.jpg';
-import sitUpWithWeights from '../assets/images/sit-up-with-weights.jpg';
-import squats from '../assets/images/squats.jpg';
-import squattingAndTakingAMedballOnChest from '../assets/images/squatting-and-taking-a-medball-on-chest.jpg';
-import sumoKettlebellPullToTheChin from '../assets/images/sumo-kettlebell-pull-to-the-chin.jpg';
-import swingTheDumbbellsToTheSides from '../assets/images/swing-the-dumbbells-to-the-sides.jpg';
-import swingWithTheDumbbell from '../assets/images/swing-with-the-dumbbell.jpg';
-import trustersWithDumbbells from '../assets/images/trusters-with-dumbbells.jpg';
-import twistingOnThePress from '../assets/images/twisting-on-the-press.jpg';
+import alternateFlexionOnTheBiceps from '../assets/images/alternate-flexion-on-the-biceps.gif';
+import flexingTheArmsOnTheBiceps from '../assets/images/flexing-the-arms-on-the-biceps.gif';
+import liftingTheBodyWithHandsForward from '../assets/images/lifting-the-body-with-hands-forward.gif';
+import liftingYourArmsFromDumbbellInFrontOfYou from '../assets/images/lifting-your-arms-from-dumbbell-in-front-of-you.gif';
+import lyingSideSlopes from '../assets/images/lying-side-slopes.gif';
+import pressDumbbellsOverYourselfFromTheFloor from '../assets/images/press-dumbbells-over-yourself-from-the-floor.gif';
+import pullOver from '../assets/images/pull-over.gif';
+import pushUpsWithANarrowSettingFromTheBench from '../assets/images/push-ups-with-a-narrow-setting-from-the-bench.gif';
+import reverseTwists from '../assets/images/reverse-twists.gif';
+import squatWithDumbbellPress from '../assets/images/squat-with-dumbbell-press.gif';
+import sumoSquatWithDumbbell from '../assets/images/sumo-squat-with-dumbbell.gif';
+import swingYourFootToTheSide from '../assets/images/swing-your-foot-to-the-side.gif';
 
 export const cards: Card[] = [
     {
-        image: benchPress,
-        description: 'Жимовой швунг 100 повторений'
+        image: flexingTheArmsOnTheBiceps,
+        description: 'Сгибание рук на бицепс 60 повторений'
     },
     {
-        image: buttockBridge,
-        description: 'Ягодичный мост 100 повторений'
+        image: alternateFlexionOnTheBiceps,
+        description: 'Поочередные сгибания на бицепс 60 повторений'
     },
     {
-        image: liftingDumbbellsOnBiceps,
-        description: 'Подъем гантелей на бицепс 100 повторений'
+        image: pullOver,
+        description: 'Пуловер 60 повторений'
     },
     {
-        image: plank,
-        description: 'Планка 5 минут'
+        image: sumoSquatWithDumbbell,
+        description: 'Сумо-приседание с гантелей 100 повторений'
     },
     {
-        image: pushUpsFromTheKneesOffTheFloor,
-        description: 'Отжимания с коленей от пола 50 повторений'
+        image: squatWithDumbbellPress,
+        description: 'Приседание с жимом гантелей 100 повторений'
     },
     {
-        image: sitUpWithWeights,
-        description: 'Ситап с отягощением 100 повторений'
+        image: swingYourFootToTheSide,
+        description: 'Мах ногой в сторону 80 повторений'
     },
     {
-        image: squats,
-        description: 'Приседания 100 повторений'
+        image: liftingYourArmsFromDumbbellInFrontOfYou,
+        description: 'Подъем рук с гантелей перед собой 50 повторений'
     },
     {
-        image: squattingAndTakingAMedballOnChest,
-        description: 'Приседание со взятием медбола на грудь 100 повторений'
+        image: pressDumbbellsOverYourselfFromTheFloor,
+        description: 'Жим гантели над собой с пола 50 повторений'
     },
     {
-        image: sumoKettlebellPullToTheChin,
-        description: 'Тяга гири сумо к подбородку 100 повторений'
+        image: pushUpsWithANarrowSettingFromTheBench,
+        description: 'Отжимания с узкой постановкой от скамьи 50 повторений'
     },
     {
-        image: swingTheDumbbellsToTheSides,
-        description: 'Махи гантелей в стороны 4 х 45с'
+        image: lyingSideSlopes,
+        description: 'Боковые наклоны лежа 100 повторений'
     },
     {
-        image: swingWithTheDumbbell,
-        description: 'Свинг с гантелей 100 повторений'
+        image: reverseTwists,
+        description: 'Обратные скручивания 100 повторений'
     },
     {
-        image: trustersWithDumbbells,
-        description: 'Трастеры с гантелями 100 повторений'
-    },
-    {
-        image: twistingOnThePress,
-        description: 'Скручивания на пресс 50 повторений'
+        image: liftingTheBodyWithHandsForward,
+        description: 'Подъем корпуса с руками вперед 100 повторений'
     }
 ];
