@@ -1,6 +1,6 @@
 export function chooseCard(card: number, setCard: (card: number) => void): void {
     var minCeiled = Math.ceil(1);
-    var maxFloored = Math.floor(14);
+    var maxFloored = Math.floor(13);
 
     function calculateRandomInteger(min: number, max: number): number {
         return (Math.floor(Math.random() * (max - min) + min));
